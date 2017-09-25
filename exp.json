@@ -1,0 +1,35 @@
+{
+  "name": "Cinderboard",
+  "description": "A modern day solution to track orders",
+  "slug": "cindercompany",
+  "privacy": "public",
+  "sdkVersion": "15.0.0",
+  "version": "1.0.0",
+  "orientation": "portrait",
+  "primaryColor": "#000000",
+  "icon": "https://s3-us-west-1.amazonaws.com/cinderco/cinderboard_icon.png",
+  "notification": {
+    "icon": "https://s3-us-west-1.amazonaws.com/cinderco/cinderboard_icon.png",
+    "color": "#000000"
+  },
+  "loading": {
+    "icon": "https://s3-us-west-1.amazonaws.com/cinderco/cinderboard_icon.png",
+    "hideExponentText": true,
+    "backgroundColor": "#000000"
+  },
+  "packagerOpts": {
+    "assetExts": ["ttf", "mp4"]
+  },
+  "ios": {
+    "supportsTablet": false,
+    "bundleIdentifier": "com.cinderco.cinderboard"
+  },
+   "android": {
+     "package": "com.cinderco.cinderboard",
+     "config": {
+       "googleMaps": {
+          "apiKey": "AIzaSyC-nsr2RdjFlUxwmodh7T-l8Ogat3r0AlM"
+       }
+     }
+   }
+}
